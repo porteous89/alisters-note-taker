@@ -4,12 +4,23 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "uuid": "^9.0.0"
-  }
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porteous89/alisters-note-taker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/porteous89/alisters-note-taker/issues"
+  },
+  "homepage": "https://github.com/porteous89/alisters-note-taker#readme"
 }
