@@ -61,6 +61,13 @@ to delete a note:
 This project is licensed under the MIT license. See the [LICENSE](https://opensource.org/licenses/MIT) file for details.
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Credits
+https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1
+
+https://docs.insomnia.rest/insomnia/send-your-first-request
+
+https://www.w3schools.com/sql/default.asp
+
 ## contribution
 PLease checkout my github link for contributions -  [https://github.com/porteous89](https://github.com/porteous89).
 
