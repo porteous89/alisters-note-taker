@@ -16,17 +16,17 @@ const writeNotes = (existingNotesStr) => {
   );
 };
 
-//Get Routes for retrieving notes
+//Get Route for retrieving notes
 router.get('/', (req, res) => {
   res.json(getNotes());
 });
 
-//Post route for a new note
+//Post route for new note
 router.post('/', (req, res) => {
   console.info(`${req.method} request received`);
   const { title, text, uniqidId = 0 } = req.body;
 
-//Delete routes for selected ids
+//Delete route for selected id
 router.delete('/:id', (req, res) => {
   let notes = getNotes();
   notes = notes.filter((note) => note.uniqidId !== req.params.id);
@@ -45,7 +45,7 @@ router.delete('/:id', (req, res) => {
     
     existingNotesStr = getNotes();
 
-    //Add a new note
+    //New note
     existingNotesStr.push(newNote);
 
     writeNotes(existingNotesStr);
